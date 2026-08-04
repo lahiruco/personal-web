@@ -65,7 +65,7 @@ module.exports = {
           '50%':      { transform: 'translateY(-12px)' },
         },
       },
-      typography: (theme) => ({
+      typography: (theme: any) => ({
         DEFAULT: {
           css: {
             color: theme('colors.ink.DEFAULT'),
