@@ -18,29 +18,5 @@ export const products: Product[] = [
    
    
   // ─── Physical Products ───────────────────────────────────────────────────────
-  {
-    id: 'custom-car-display',
-    title: 'Custom Vehicle HUD Display',
-    description:
-      'Hand-assembled heads-up display unit powered by ESP32 — shows speed, RPM, and fuel level on a sleek semi-transparent screen.',
-    price: 149,
-    currency: 'USD',
-    type: 'physical',
-    imageUrl: '/images/product-hud.jpg',
-    buyUrl: '#',
-    featured: true,
-    badge: 'Limited',
-  },
-  {
-    id: 'lk-sticker-pack',
-    title: 'LK Auto Sticker Pack',
-    description:
-      'Vinyl-cut premium automotive stickers — weather-resistant, UV-protected. Set of 10 curated designs.',
-    price: 8,
-    currency: 'USD',
-    type: 'physical',
-    imageUrl: '/images/product-stickers.jpg',
-    buyUrl: '#',
-    featured: false,
-  },
+  
 ];
