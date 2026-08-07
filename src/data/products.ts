@@ -3,43 +3,20 @@ import { Product } from '@/types';
 export const products: Product[] = [
   // ─── Digital Products ────────────────────────────────────────────────────────
   {
-    id: 'ui-kit-automotive',
-    title: 'Automotive UI Kit',
+    id: 'Automotive Mastery System',
+    title: 'Automotive Mastery System',
     description:
-      'A premium Figma UI kit with 60+ components tailored for automotive dashboards, service apps, and garage management systems.',
-    price: 29,
+      'A structured self-study system for automotive technicians and engineers. Covers every vehicle system, every major brand, and professional diagnostics — built around one rule: never memorize, always understand why.',
+    price: 0.00,
     currency: 'USD',
     type: 'digital',
     imageUrl: '/images/product-uikit.jpg',
-    buyUrl: '#',
-    featured: true,
-    badge: 'Bestseller',
-  },
-  {
-    id: 'brand-identity-template',
-    title: 'Brand Identity Starter Pack',
-    description:
-      'Editable Figma templates for logos, business cards, social media kits, and color guides — ready for small businesses.',
-    price: 19,
-    currency: 'USD',
-    type: 'digital',
-    imageUrl: '/images/product-brand.jpg',
-    buyUrl: '#',
+    buyUrl: 'https://muddy-minnow-fed.notion.site/Automotive-Mastery-System-cd7ef94598204f718e0e881586b61798?pvs=143',
     featured: true,
     badge: 'New',
   },
-  {
-    id: 'esp32-starter-guide',
-    title: 'ESP32 Automotive Starter Guide',
-    description:
-      'A comprehensive PDF guide on using ESP32 for vehicle diagnostics, OBD-II integration, and embedded display projects.',
-    price: 12,
-    currency: 'USD',
-    type: 'digital',
-    imageUrl: '/images/product-esp32.jpg',
-    buyUrl: '#',
-    featured: false,
-  },
+   
+   
   // ─── Physical Products ───────────────────────────────────────────────────────
   {
     id: 'custom-car-display',
