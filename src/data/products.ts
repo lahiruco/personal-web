@@ -10,7 +10,7 @@ export const products: Product[] = [
     price: 0.00,
     currency: 'USD',
     type: 'digital',
-    imageUrl: 'https://postimg.cc/8fJDxNLM',
+    imageUrl: 'https://i.postimg.cc/Vv46rN6G/Engineer-interacting-with-automo-2K-202608070927.jpg',
     buyUrl: 'https://muddy-minnow-fed.notion.site/Automotive-Mastery-System-cd7ef94598204f718e0e881586b61798?pvs=143',
     featured: true,
     badge: 'New',
